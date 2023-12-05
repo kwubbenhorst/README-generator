@@ -145,7 +145,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-
+/*
 // A function to initialize the app
 function init() {
     
@@ -153,3 +153,4 @@ function init() {
 
 // Function call to initialize app
 init();
+*/
