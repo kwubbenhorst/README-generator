@@ -21,8 +21,7 @@ The user needs to have node.js installed in their computer and be able to access
 ## Usage
 The entry point for the application is the index.js file. If the user has node.js installed on their machine, they simply have to enter node index.js in their terminal and wait for the prompts to guide them through the data gathering. Once this piece of asynchronous activity is complete the program will proceed automatically to the generation of the readme file. The file will appear immediately in the working folder and can be previewed using a code editor such as VS Code.  Once changes in the working folder have been pushed to GitHub, the readme will appear there on the landing page for the repo.  Check out this walkthrough video which demonstrates the functionality of the application.
 
-
-
+https://bootcampspot.instructure.com/accounts/1/external_tools/33?launch_type=global_navigation
 
 ## Credits
 This project was a single-author creation.
