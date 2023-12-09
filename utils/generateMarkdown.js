@@ -58,6 +58,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.name}
 
+${renderLicenseBadge(data.license)}
+  
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
