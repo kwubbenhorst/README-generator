@@ -123,17 +123,6 @@ const questions = [
   },
 ];
 
-inquirer
-    .prompt(questions)
-    .then((answers) => {
-        const markdown = generateMarkdown(answers); // Use the function from generateMarkdown.js
-        writeToFile('README.md', markdown);
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
-
-
 // A function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => {
@@ -145,12 +134,18 @@ function writeToFile(fileName, data) {
     });
 }
 
-/*
 // A function to initialize the app
 function init() {
-    
+  inquirer
+    .prompt(questions)
+    .then((answers) => {
+        const markdown = generateMarkdown(answers); // Use the function from generateMarkdown.js
+        writeToFile('README.md', markdown);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });   
 }
 
 // Function call to initialize app
 init();
-*/
